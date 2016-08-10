@@ -1,0 +1,11 @@
+{
+  "name": "Update Bookmark",
+  "description": "Updates bookmark to current page when clicked in context menu",
+  "version": "0.9",
+  "permissions": ["contextMenus","bookmarks"],
+  "background": {
+    "persistent": true,
+    "scripts": ["updatable.js"]
+  },
+  "manifest_version": 2
+}
